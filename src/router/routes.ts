@@ -9,12 +9,6 @@ const routes: RouteRecordRaw[] = [
       {
         path: '/:category',
         component: () => import('pages/[category].vue'),
-        // children: [
-        //   {
-        //     path: '/store/:id',
-        //     component: () => import('pages/store/[...id].vue'),
-        //   },
-        // ],
       },
       {
         path: '/store/:id',

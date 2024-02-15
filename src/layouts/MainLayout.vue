@@ -25,7 +25,7 @@
             flat
             dense
             round
-            icon="menu"
+            icon="i-mdi-menu"
             aria-label="Menu"
             @click="toggleLeftDrawer"
           />

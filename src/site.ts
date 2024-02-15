@@ -17,9 +17,24 @@ export default {
   trailingSlash: false, // default
   titleSeparator: '|', // default
   nav: [
-    { text: 'Home', link: '/', type: 'primary', icon: 'i-mdi-home' },
-    { text: 'Women', link: '/women', type: 'primary', icon: 'i-mdi-home' },
-    { text: 'Men', link: '/men', type: 'primary', icon: 'i-mdi-home' },
+    {
+      text: 'Home',
+      link: '/',
+      type: 'primary',
+      icon: 'i-mdi-home',
+    },
+    {
+      text: 'Women',
+      link: '/women',
+      type: 'primary',
+      icon: 'i-mdi-home',
+    },
+    {
+      text: 'Men',
+      link: '/men',
+      type: 'primary',
+      icon: 'i-mdi-home',
+    },
     {
       text: 'Jewellery',
       link: '/jewellery',
