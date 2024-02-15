@@ -12,7 +12,7 @@
     <div class="container mx-auto py-8">
       <div class="-tracking-wide flex font-bold justify-center text-5xl">
         <span class="text-center text-primary">Hot Deals</span>
-        <q-icon class="ml-2 text-5xl" icon="i-twemoji-fire"></q-icon>
+        <BaseIcon class="ml-2 text-5xl" name="i-twemoji-fire"></BaseIcon>
       </div>
       <section
         data-pg-name="Products"

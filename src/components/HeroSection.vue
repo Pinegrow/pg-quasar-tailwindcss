@@ -18,7 +18,6 @@
       :srcset="heroImageOptimized.srcset"
       :sizes="heroImageOptimized.sizes"
       :max-height="800"
-      fit="cover"
     >
       <!-- <q-img :src="heroImageUrl" :max-height="800" fit="cover"> -->
       <div class="container flex flex-col h-full justify-end mx-auto">

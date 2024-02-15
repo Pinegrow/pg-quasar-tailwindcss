@@ -115,6 +115,7 @@ module.exports = configure(function (ctx) {
             quasar: {
               /* Please ensure that you update the filenames and paths to accurately match those used in your project. */
               configPath: 'quasar.config.js',
+              utilities: false,
               themePath: false, // Set to false so that Design Panel is not used
               // restartOnConfigUpdate: true,
               restartOnThemeUpdate: true,
