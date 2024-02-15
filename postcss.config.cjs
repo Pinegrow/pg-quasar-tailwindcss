@@ -1,6 +1,5 @@
 /* eslint-disable */
 // https://github.com/michael-ciniawsky/postcss-load-config
-
 module.exports = {
   plugins: [
     // https://github.com/postcss/autoprefixer
@@ -16,6 +15,9 @@ module.exports = {
         'last 4 iOS versions',
       ],
     }),
+    require('tailwindcss/nesting')({}),
+    require('tailwindcss')({}),
+    require('autoprefixer')({}),
 
     // https://github.com/elchininet/postcss-rtlcss
     // If you want to support RTL css, then

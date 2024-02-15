@@ -124,7 +124,7 @@ Check out the [deployment documentation](https://quasar.dev/quasar-cli-webpack/d
 
 ### Modules/Plugins
 
-- [Pinegrow Quasar Module](https://www.npmjs.com/package/@pinegrow/quasar-module) - enables you to live-design your Vue single-file components visually in Vue Designer. Also, via Design Panel, enables theme customization (optional) and visual controls for Vuetify utilities. Note: This is an addon that's licensed separately to Pinegrow apps (like Vue Designer).
+- [Pinegrow Quasar Module](https://www.npmjs.com/package/@pinegrow/quasar-module) - enables you to live-design your Vue single-file components visually in Vue Designer. Also, via Design Panel, enables theme customization (optional) and visual controls for Quasar utilities. Note: This is an addon that's licensed separately to Pinegrow apps (like Vue Designer).
 - [VueUse](https://vueuse.org/) - collection of essential Vue composition utilities.
 - 🍍 [Pinia](https://quasar.dev/quasar-cli-vite/state-management-with-pinia) stores for global state management. Its light-weight, type-safe, extensible, modular with vue-devtools support.
 - [VeeValidate](https://vee-validate.logaretm.com/v3/guide/3rd-party-libraries.html#quasar) takes care of value tracking, validation, errors, submissions and more.
