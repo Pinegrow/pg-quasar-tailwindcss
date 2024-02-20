@@ -75,7 +75,7 @@
   #q-app {
     overflow: auto;
   }
-  /* a {
+  a {
     text-decoration: none !important;
-  } */
+  }
 </style>
