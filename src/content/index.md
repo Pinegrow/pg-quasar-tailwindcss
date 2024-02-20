@@ -55,8 +55,8 @@ For iOS (Mac only) - install Xcode before starting development server
 For Android - install Android Studio, Android File Transfer, setup and launch Android Virtual Device, and then start the development server
 
 ```bash
-npm run dev # Web - SPA,
-npm run dev:ssr # Web - SSR SPA,
+npm run dev # Web - SPA
+npm run dev:ssr # Web - SSR SPA
 npm run dev:electron # Desktop
 npm run dev:ios # Mobile - ios
 npm run dev:android # Mobile - android
@@ -67,8 +67,8 @@ npm run dev:android # Mobile - android
 For Windows build when running Mac - uncomment the `platform: 'win32'` line in `quasar.config.js` and run `npm run build:electron`
 
 ```bash
-npm run build # Web - SPA,
-npm run build:ssr # Web - SSR SPA,
+npm run build # Web - SPA
+npm run build:ssr # Web - SSR SPA
 npm run build:electron # Desktop
 npm run build:ios # Mobile - ios
 npm run build:android # Mobile - android
@@ -82,8 +82,10 @@ npm run icons # regenerate icons & splash screens
 
 ### Analyze
 
+Set `build > analyze` to `true` in your config file and run the necessary `build` command. This will generate and open an HTML report containing bundle size information.
+
 ```bash
-npm run analyze # bundle sizes
+npm run build # use the necessary build command from above build section
 ```
 
 ### Preview
@@ -118,6 +120,10 @@ Check out the [deployment documentation](https://quasar.dev/quasar-cli-webpack/d
 
 - [Quasar](https://quasar.dev/components/) - There’s a component for almost every web development need within Quasar. Each of Quasar’s components is carefully crafted to offer you the best possible experience for your users. Quasar is designed with performance & responsiveness in mind – so the overhead of using Quasar is barely noticeable. This attention to performance and good design is something that gives us special pride.
 
+- [Tailwind CSS](https://tailwindcss.com/docs/guides/nuxtjs#3) - The amazing utility-first CSS framework.
+  👉 Note: This template uses Tailwind CSS for styling. In order to resolve Quasar's !important in default theme, tailwind.config.ts includes the `important: true` setting.
+  👉 Note: Quasar's extended spacing utilities that can enabled by setting `framework.cssAddon: true` in quasar config is ensured to be not enabled to reduce the css footprint added by quasar.
+
 ### Icons
 
 - [UnoCSS Preset Icons](https://github.com/unocss/unocss/tree/main/packages/preset-icons/) - use over 100,000 open-source [Iconify](https://iconify.design/) icons. Uses the **unocss** format for icon names, for example, `i-mdi-home`.
@@ -125,6 +131,7 @@ Check out the [deployment documentation](https://quasar.dev/quasar-cli-webpack/d
 ### Modules/Plugins
 
 - [Pinegrow Quasar Module](https://www.npmjs.com/package/@pinegrow/quasar-module) - enables you to live-design your Vue single-file components visually in Vue Designer. Also, via Design Panel, enables theme customization (optional) and visual controls for Quasar utilities. Note: This is an addon that's licensed separately to Pinegrow apps (like Vue Designer).
+- [Pinegrow Tailwind CSS Plugin](https://www.npmjs.com/package/@pinegrow/tailwindcss-plugin) - via Design Panel, enables visual controls customization (automatic) and theme customization (optional).
 - [VueUse](https://vueuse.org/) - collection of essential Vue composition utilities.
 - 🍍 [Pinia](https://quasar.dev/quasar-cli-vite/state-management-with-pinia) stores for global state management. Its light-weight, type-safe, extensible, modular with vue-devtools support.
 - [VeeValidate](https://vee-validate.logaretm.com/v3/guide/3rd-party-libraries.html#quasar) takes care of value tracking, validation, errors, submissions and more.

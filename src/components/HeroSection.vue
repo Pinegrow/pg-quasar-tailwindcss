@@ -20,14 +20,23 @@
       :max-height="800"
     >
       <!-- <q-img :src="heroImageUrl" :max-height="800" fit="cover"> -->
-      <div class="container flex flex-col h-full justify-end mx-auto">
+      <div
+        class="bg-transparent container flex flex-col h-full justify-end mx-auto"
+      >
         <div class="flex flex-col items-end pb-8 px-4 w-full md:pb-20">
           <h2
             class="capitalize font-serif leading-tight mb-2 md:w-96 text-primary text-right w-60 xl:w-full"
           >
             Style Up Your Life!
           </h2>
-          <q-btn label="Shop Now" size="lg" class="mt-4" to="/women"></q-btn>
+          <q-btn
+            label="Shop Now"
+            size="md"
+            class="mt-4"
+            to="/women"
+            color="primary"
+            data-pg-collapsed
+          ></q-btn>
         </div>
       </div>
     </q-img>

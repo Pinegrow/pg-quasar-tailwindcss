@@ -122,6 +122,7 @@ Check out the [deployment documentation](https://quasar.dev/quasar-cli-webpack/d
 
 - [Tailwind CSS](https://tailwindcss.com/docs/guides/nuxtjs#3) - The amazing utility-first CSS framework.
   👉 Note: This template uses Tailwind CSS for styling. In order to resolve Quasar's !important in default theme, tailwind.config.ts includes the `important: true` setting.
+  👉 Note: Quasar's extended spacing utilities that can enabled by setting `framework.cssAddon: true` in quasar config is ensured to be not enabled to reduce the css footprint added by quasar.
 
 ### Icons
 

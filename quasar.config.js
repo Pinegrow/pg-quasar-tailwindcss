@@ -57,7 +57,7 @@ module.exports = configure(function (ctx) {
       // iconSet: 'svg-mdi-v5',
       config: {},
       // Make spacing utilities responsive
-      cssAddon: true,
+      // cssAddon: true,
       // iconSet: 'material-icons', // Quasar icon set
       // lang: 'en-US', // Quasar language pack
 
