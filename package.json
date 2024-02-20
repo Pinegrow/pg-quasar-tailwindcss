@@ -31,6 +31,7 @@
     "format": "prettier --write \"**/*.{vue,js,jsx,cjs,mjs,ts,tsx,cts,mts,html,css,md,mdx,json}\" !public --ignore-path .gitignore"
   },
   "dependencies": {
+    "@code-coaching/vuetiful": "^0.26.0",
     "@quasar/extras": "^1.16.9",
     "@unhead/vue": "^1.8.10",
     "@vueuse/core": "^10.7.2",
