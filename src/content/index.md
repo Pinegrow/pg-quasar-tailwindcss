@@ -1,6 +1,6 @@
-# Vue Designer Quasar - Quick start template
+# QuCommerce Store - Quasar powered cross-platform store with powerful, accessible components, styled with Tailwind CSS
 
-This is a starter template that pre-includes the [Pinegrow Quasar Module](https://www.npmjs.com/package/@pinegrow/quasar-module) and other goodies for Vue Designer.
+Quasar quick start template that pre-includes the [Pinegrow Quasar Module](https://www.npmjs.com/package/@pinegrow/quasar-module), [Pinegrow Tailwind CSS Plugin](https://www.npmjs.com/package/@pinegrow/tailwindcss-plugin) and other goodies for Vue Designer.
 
 Demo - https://pg-quasar-tailwindcss-css.netlify.app/
 
