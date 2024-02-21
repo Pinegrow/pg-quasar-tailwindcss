@@ -15,9 +15,9 @@
     // ogImage: 'images/ogImage.png', // url or local images inside public folder, for eg, ~/public/images/ogImage.png
   }
 
-  const slug =
-    useRoute().params.slug.toString().replace(/,/g, '/') ||
-    useRoute().name.toString().replace(/,/g, '/')
+  const slug = ''
+  // useRoute().params.slug.toString().replace(/,/g, '/') ||
+  // useRoute().name.toString().replace(/,/g, '/')
 
   useMeta(() => {
     return {
@@ -48,7 +48,8 @@
         <slot />
       </div>
     </TheHeader>
-    <section class="container mx-auto">
+    <!-- 
+      <section class="container mx-auto">
       <div class="px-10 w-full">
         <div class="flex flex-col rounded-lg">
           <article
@@ -67,7 +68,7 @@
           </article>
         </div>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
 <style scoped></style>

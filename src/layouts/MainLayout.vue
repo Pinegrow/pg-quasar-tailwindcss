@@ -6,7 +6,7 @@
   const essentialLinks = nav.map(({ text, link, icon }) => ({
     title: text,
     caption: '',
-    icon: 'home',
+    icon,
     link,
   }))
 

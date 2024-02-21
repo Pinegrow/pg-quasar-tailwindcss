@@ -15,7 +15,7 @@ const routes: RouteRecordRaw[] = [
         component: () => import('pages/store/[...id].vue'),
       },
       {
-        path: '/quick-start/:slug',
+        path: '/quick-start/:slug?',
         component: () => import('pages/quick-start/[...slug].vue'),
       },
       {
