@@ -1,0 +1,16 @@
+{
+  "extends": "@quasar/app-vite/tsconfig-preset",
+  "compilerOptions": {
+    // "baseUrl": ".",
+    "strict": false,
+    "allowJs": true,
+    /* Please ensure that you update the filenames and paths to accurately match those used in your project. */
+
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"],
+      "~/*": ["./src/*"],
+      "~~/*": ["./*"]
+    }
+  }
+}
