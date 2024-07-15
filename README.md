@@ -140,6 +140,7 @@ Check out the [deployment documentation](https://quasar.dev/quasar-cli-webpack/d
 
 ### Devtools
 
+- [Vite Devtools](https://github.com/webfansplz/vite-plugin-vue-devtools) - A Vite plugin for Vue that enhances your DX (developer experience) with an amazing set of in-app features. This is an in-app alternative to browser-based/standalone Vue Devtools.
 - [Vue Devtools](https://devtools.vuejs.org/guide/installation.html#standalone) - Official devtools that can be used as a standalone app alongside Vue Designer. It's configured as a boot file (only during development).
   - **ACTION REQUIRED**: Currently deactivated. In `src/boot/devtools.ts`, uncomment to activate.
 
