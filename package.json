@@ -16,7 +16,6 @@
     "dev:ios": "quasar dev -m ios",
     "dev:android": "quasar dev -m android",
     "now": "npm run build && npm run preview",
-    "lighthouse:dev": "npx unlighthouse --no-cache --site http://localhost:9000",
     "lighthouse": "npx unlighthouse --no-cache --site https://pg-quasar-tailwindcss.netlify.app",
     "build": "quasar build",
     "build:ssr": "quasar build -m ssr",
@@ -44,8 +43,8 @@
   },
   "devDependencies": {
     "@iconify/json": "^2.2.176",
-    "@pinegrow/quasar-module": "^3.0.60",
-    "@pinegrow/tailwindcss-plugin": "^3.0.29",
+    "@pinegrow/quasar-module": "^3.0.65",
+    "@pinegrow/tailwindcss-plugin": "^3.0.33",
     "@quasar/app-vite": "^1.7.0",
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.10",
