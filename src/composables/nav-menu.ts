@@ -2,7 +2,7 @@ import { useRouter, useRoute } from 'vue-router'
 import { computed } from 'vue'
 import site from '@/site'
 
-export const useNav = () => {
+export const useNavMenu = () => {
   const routes = useRouter().getRoutes()
 
   const navlinksFromRouter = routes
@@ -39,7 +39,7 @@ export const useNav = () => {
 
 export const isCurrentRoute = (navlink, currentPath) => {
   if (!currentPath) {
-    currentPath = useNav().currentPath.value
+    currentPath = useNavMenu().currentPath.value
   }
   return navlink.link === '/'
     ? currentPath === navlink.link

@@ -35,7 +35,6 @@
             class="mt-4"
             to="/women"
             color="primary"
-            data-pg-collapsed
           ></q-btn>
         </div>
       </div>
