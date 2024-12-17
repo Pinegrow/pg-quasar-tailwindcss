@@ -43,8 +43,8 @@
   },
   "devDependencies": {
     "@iconify/json": "^2.2.176",
-    "@pinegrow/quasar-module": "^3.0.65",
-    "@pinegrow/tailwindcss-plugin": "^3.0.33",
+    "@pinegrow/quasar-module": "^3.0.68",
+    "@pinegrow/tailwindcss-plugin": "^3.0.35",
     "@quasar/app-vite": "^1.7.0",
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.10",
