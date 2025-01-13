@@ -1,22 +1,16 @@
 <script setup lang="ts">
-  import { useMeta } from 'quasar'
-
-  const pageMeta = {
-    // layout: 'default',
-    // name: 'contact-us',
-    // alias: 'contact-us',
-    title: 'Contact Us',
-    description: "Get in Touch: We're All Ears!",
-    navOrder: '11',
-    type: 'secondary',
-    icon: 'i-mdi-home',
-    // ogImage: 'images/ogImage.png', // url or local images inside public folder, for eg, ~/public/images/ogImage.png
-  }
-  useMeta(() => {
-    return {
-      title: pageMeta.title,
-      description: pageMeta.description,
-    }
+  definePage({
+    meta: {
+      // layout: 'default',
+      // name: 'contact-us',
+      // alias: 'contact-us',
+      title: 'Contact Us',
+      description: "Get in Touch: We're All Ears!",
+      navOrder: '11',
+      type: 'secondary',
+      icon: 'i-mdi-home',
+      // ogImage: 'images/ogImage.png', // url or local images inside public folder, for eg, ~/public/images/ogImage.png
+    },
   })
 </script>
 <template>

@@ -1,5 +1,8 @@
-import { createHead } from 'unhead'
+// import 'uno.css'
 
-export default ({ app /* , router, store */ }) => {
+import { defineBoot } from '#q-app/wrappers'
+import { createHead } from '@unhead/vue'
+
+export default defineBoot(({ app }) => {
   app.use(createHead())
-}
+})

@@ -5,14 +5,19 @@ import {
 } from './themes/pg-tailwindcss/tokens.mjs'
 
 import { getFontsWithFallback } from './src/utils/font'
+import { safelist } from './src/utils/colors'
+
+import tailwindTypography from '@tailwindcss/typography'
+import tailwindForms from '@tailwindcss/forms'
+import tailwindCssPluginPinegrow from '@pinegrow/tailwindcss-plugin'
 
 export default {
   important: true,
   darkMode: 'class',
   plugins: [
-    require('@tailwindcss/typography'),
-    // require('@tailwindcss/forms'), // conflicts with quasar, so turned it off
-    require('@pinegrow/tailwindcss-plugin').default({
+    tailwindTypography,
+    // tailwindForms,// conflicts with quasar, so turned it off
+    tailwindCssPluginPinegrow({
       colors: pg_colors, // primary, secondary etc
       fonts: getFontsWithFallback(pg_fonts),
       backgrounds: pg_backgrounds, // bg-design-image, bg-design-image-large

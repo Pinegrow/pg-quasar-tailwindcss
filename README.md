@@ -64,7 +64,7 @@ npm run dev:android # Mobile - android
 
 ### Build
 
-For Windows build when running Mac - uncomment the `platform: 'win32'` line in `quasar.config.js` and run `npm run build:electron`
+For Windows build when running Mac - uncomment the `platform: 'win32'` line in `quasar.config.ts` and run `npm run build:electron`
 
 ```bash
 npm run build # Web - SPA

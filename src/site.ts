@@ -3,12 +3,14 @@
 // @unocss-include
 
 export default {
-  name: 'QuCommerce',
+  title: 'QuCommerce',
   description: 'Vue Designer Quasar Tailwind CSS',
   logo: 'i-fluent-emoji:shopping-bags',
   author: 'Pinegrow',
   url: 'https://pg-quasar-tailwindcss.netlify.app',
   github: 'https://github.com/pinegrow/pg-quasar-tailwindcss',
+  ogImageUrl: 'og-image.jpg', // absolute url (or) from public folder
+  generator: 'https://vuedesigner.com',
   defaultLocale: 'en', // default
   identity: {
     type: 'Organization',
@@ -16,78 +18,70 @@ export default {
   twitter: '@vuedesigner',
   trailingSlash: false, // default
   titleSeparator: '|', // default
-  nav: [
-    {
-      text: 'Home',
-      link: '/',
-      type: 'primary',
-      icon: 'i-mdi-home',
-    },
-    {
-      text: 'Women',
-      link: '/women',
-      type: 'primary',
-      icon: 'i-mdi-face-woman-shimmer-outline',
-    },
-    {
-      text: 'Men',
-      link: '/men',
-      type: 'primary',
-      icon: 'i-mdi-face-shimmer',
-    },
-    {
-      text: 'Jewellery',
-      link: '/jewellery',
-      type: 'primary',
-      icon: 'i-mdi-crown-outline',
-    },
-    {
-      text: 'Electronics',
-      link: '/electronics',
-      type: 'primary',
-      icon: 'i-mdi-cellphone-iphone',
-    },
-    {
-      text: 'About Us',
-      link: '/quick-start',
-      type: 'primary',
-      icon: 'i-mdi-file',
-    },
-    {
-      text: 'Track Order',
-      link: '/track-order',
-      type: 'secondary',
-      icon: 'i-mdi-map-marker-radius',
-    },
-    {
-      text: 'Order History',
-      link: '/order-history',
-      type: 'secondary',
-      icon: 'i-mdi-history',
-    },
-    {
-      text: 'Returns',
-      link: '/returns',
-      type: 'secondary',
-      icon: 'i-mdi-phone-return-outline',
-    },
-    {
-      text: 'Delivery Policy',
-      link: '/delivery-policy',
-      type: 'secondary',
-      icon: 'i-mdi-truck-delivery-outline',
-    },
-    {
-      text: 'Contact Us',
-      link: '/contact-us',
-      type: 'secondary',
-      icon: 'i-mdi-phone-in-talk-outline',
-    },
-    {
-      text: 'Help & FAQs',
-      link: '/help-faqs',
-      type: 'secondary',
-      icon: 'i-mdi-format-quote-close-outline',
-    },
-  ],
+  navs: {
+    primary: [
+      {
+        title: 'Home',
+        to: '/',
+        icon: 'i-mdi-home',
+      },
+      {
+        title: 'Women',
+        to: '/category/women',
+        icon: 'i-mdi-face-woman-shimmer-outline',
+      },
+      {
+        title: 'Men',
+        to: '/category/men',
+        icon: 'i-mdi-face-man-shimmer',
+      },
+      {
+        title: 'Jewellery',
+        to: '/category/jewellery',
+        icon: 'i-mdi-crown-outline',
+      },
+      {
+        title: 'Electronics',
+        to: '/category/electronics',
+        icon: 'i-mdi-cellphone',
+      },
+      {
+        title: 'About Us',
+        to: '/quick-start',
+        icon: 'i-mdi-file',
+      },
+    ],
+    secondary: [
+      {
+        title: 'Track Order',
+        to: '/track-order',
+        icon: 'i-mdi-map-marker-radius',
+      },
+      {
+        title: 'Order History',
+        to: '/order-history',
+        icon: 'i-mdi-history',
+      },
+      {
+        title: 'Returns',
+        to: '/returns',
+        icon: 'i-mdi-phone-return-outline',
+      },
+      {
+        title: 'Delivery Policy',
+        to: '/delivery-policy',
+        icon: 'i-mdi-truck-delivery-outline',
+      },
+      {
+        title: 'Contact Us',
+        to: '/contact-us',
+        icon: 'i-mdi-phone-in-talk-outline',
+      },
+      {
+        title: 'Help & FAQs',
+        to: '/help-faqs',
+        icon: 'i-mdi-format-quote-close-outline',
+      },
+    ],
+  },
 }

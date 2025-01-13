@@ -1,7 +1,9 @@
 import type { Product, Products } from '@/types/store'
 import { products } from '~~/db.json'
 
-products as Products
+// products as Products
+
+type Maybe<T> = T | null | undefined
 
 export const useProduct = async (productId: number) => {
   const product: Maybe<Product> = products.find(

@@ -1,5 +1,6 @@
 <script setup lang="ts">
   const route = useRoute()
+  // @ts-ignore
   const { id: productId } = route.params
 
   const { fetchProduct } = await useProduct(+productId)

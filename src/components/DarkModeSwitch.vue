@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  const { isDark, toggleDark } = useDark()
+  const { isDark, toggleDark } = useDarkMode()
 
   const toggleTheme = () => {
     toggleDark()

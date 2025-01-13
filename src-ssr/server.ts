@@ -1,3 +1,4 @@
+//@ts-nocheck
 /**
  * More info about this file:
  * https://v2.quasar.dev/quasar-cli-vite/developing-ssr/ssr-webserver

@@ -1,6 +1,6 @@
 import { Dark, useQuasar } from 'quasar'
 
-export const useDark = () => {
+export const useDarkMode = () => {
   const $q = useQuasar()
 
   const isDark = ref(Dark.isActive)

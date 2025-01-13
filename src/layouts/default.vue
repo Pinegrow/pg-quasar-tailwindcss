@@ -1,10 +1,27 @@
 <script setup lang="ts">
-  import site from '~/site'
+  import siteMeta from '~/site'
 
-  const { nav } = site
+  const route = useRoute()
 
-  const essentialLinks = nav.map(({ text, link, icon }) => ({
-    title: text,
+  const pageMeta = computed(() => {
+    return {
+      title: route.meta.title,
+      description: route.meta.description,
+      ogImage: route.meta.ogImage,
+      canonicalUrl: route.meta.canonicalUrl || route.fullPath,
+      generator: route.meta.generator,
+      tags: route.meta.tags,
+    }
+  })
+
+  useHeadAndMeta(pageMeta)
+
+  const allNavs = Object.values(siteMeta.navs).reduce((acc, navMenu) => {
+    return [...acc, ...navMenu]
+  }, [])
+
+  const essentialLinks = allNavs.map(({ title, to: link, icon }) => ({
+    title,
     caption: '',
     icon,
     link,

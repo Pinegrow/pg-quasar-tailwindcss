@@ -1,5 +1,6 @@
 <script setup lang="ts">
   const route = useRoute()
+  // @ts-ignore
   const { category } = route.params
 
   const { fetchCategory } = await useProducts()
