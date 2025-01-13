@@ -18,6 +18,7 @@ export default {
   twitter: '@vuedesigner',
   trailingSlash: false, // default
   titleSeparator: '|', // default
+
   navs: {
     primary: [
       {
