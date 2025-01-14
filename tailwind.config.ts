@@ -28,7 +28,7 @@ export default {
   get content() {
     const _content = [
       './index.html',
-      './src/**/*.{vue,svelte,astro,js,jsx,cjs,mjs,ts,tsx,cts,mts,html,md,mdx,json}',
+      './src/**/*.{html,vue,svelte,astro,js,jsx,cjs,mjs,ts,tsx,cts,mts,css,md,mdx,json}',
     ]
     return process.env.NODE_ENV === 'production'
       ? _content
