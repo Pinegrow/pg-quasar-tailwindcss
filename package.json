@@ -47,8 +47,8 @@
     "vue-router": "^4.5.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.18.0",
     "@iconify/json": "^2.2.294",
+    "@nuxt/eslint-config": "^0.7.5",
     "@intlify/unplugin-vue-i18n": "^6.0.3",
     "@pinegrow/quasar-module": "^3.0.69",
     "@pinegrow/tailwindcss-plugin": "^3.0.35",
@@ -58,11 +58,9 @@
     "@types/markdown-it-link-attributes": "^3.0.5",
     "@types/node": "^22.10.5",
     "@unocss/preset-icons": "^65.4.0",
-    "@vue/eslint-config-prettier": "^10.1.0",
-    "@vue/eslint-config-typescript": "^14.2.0",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.18.0",
-    "eslint-plugin-vue": "^9.32.0",
+    "eslint-config-prettier": "^9.1.0",
     "globals": "^15.14.0",
     "markdown-it-link-attributes": "^4.0.1",
     "markdown-it-shiki": "^0.9.0",

@@ -28,14 +28,14 @@
 
   const capitalize = (s) => (s && s[0].toUpperCase() + s.slice(1)) || ''
 
-  // useHead({
-  //   title,
-  //   titleTemplate: '%s %seperator %siteName',
-  //   templateParams: {
-  //     seperator: '|',
-  //     siteName: siteMeta.title,
-  //   },
-  // })
+  useHead({
+    title,
+    titleTemplate: '%s %seperator %siteName',
+    templateParams: {
+      seperator: '|',
+      siteName: siteMeta.title,
+    },
+  })
 </script>
 <template>
   <div class="pb-16">
