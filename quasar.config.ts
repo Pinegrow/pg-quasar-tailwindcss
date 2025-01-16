@@ -193,17 +193,17 @@ export default defineConfig((ctx) => {
             include: [fileURLToPath(new URL('./src/i18n', import.meta.url))],
           },
         ],
-        [
-          'vite-plugin-checker',
-          {
-            vueTsc: true,
-            eslint: {
-              lintCommand: 'eslint -c ./eslint.config.mjs',
-              useFlatConfig: true,
-            },
-          },
-          { server: false },
-        ],
+        // [
+        //   'vite-plugin-checker',
+        //   {
+        //     vueTsc: true,
+        //     eslint: {
+        //       lintCommand: 'eslint -c ./eslint.config.mjs',
+        //       useFlatConfig: true,
+        //     },
+        //   },
+        //   { server: false },
+        // ],
         VueDevTools(),
         liveDesigner({
           iconPreferredCase: 'unocss', // default value (can be removed), unocss by default uses the unocss format for icon names
