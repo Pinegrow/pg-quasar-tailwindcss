@@ -53,10 +53,10 @@
           :key="index"
           :label="badge"
           class="mr-2"
-          @click="toggleFilter(badge)"
           color="primary"
           :glossy="filteredBadges.has(badge)"
           :outline="!filteredBadges.has(badge)"
+          @click="toggleFilter(badge)"
         ></q-btn>
       </div>
     </section>
